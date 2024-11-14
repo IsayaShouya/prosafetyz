@@ -5,206 +5,203 @@
 		<meta name="google-site-verification" content="i552IuPfqTIfBqPtWuGHejRy1QLq0bRt8nubnKasKG0"> <!-- indica que o site é verificado e seguro -->
 		<meta charset="UTF-8"> <!-- Permite uso de caracteres especias --> 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Permite compactibilidade abrangente -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- analisa a largura do dispositivo e a usa como a largura da página., ou seja torna o site mais responsivo -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- analisa a largura do dispositivo e a usa como a largura da página., ou seja torna o site mais responsivo -->
 		<link rel="icon" href="https://www.anjosdobrasil.net/uploads/7/9/5/6/7956863/creative_orig.png" type="image/png"> <!-- icone do site = imagem -->
-    <style>
-      h1{
-		    font-weight: 200;
-		  }
-			footer{
-				background-color: #03fc45;
-				positon: absolute;
-				text-align: center;
-				color: white;
-			}
+		<style>
+		<style>
+			h1{
+		                font-weight: 200;
+		            	}
+			
 			body{
-		    background-color: black;
-		    font-family: arial, sans-serif;
-		    max-width: 1200px;
-		    margin: 0 auto;]
-		    padding: 10px;
+		                background-color: black;
+		                font-family: arial, sans-serif;
+		                max-width: 1200px;
+		                margin: 0 auto;]
+		                padding: 10px;
 				color: white;
-      }
+            			}
 			img{
-		    width: 620px;
-		    height: 620px;
+		                width: 620px;
+		                height: 620px;
 				margin-left: 20px;
-		  }
+		            	}
 			label{
-        display: inline;
-      }
+                		display: inline;
+            			}
 			form{
-		    display: flex;
-		    flex-direction: column;
-		    width: 70%;
-      }
-		  #cadastrar{
-		    height: 50px;
-		    width:50%;
-		    color: black;
-		    font-weight: bold;
-		  }
-		  form [type="submit"]:hover{
-			  background-color: #03fc45;
+		                display: flex;
+		                flex-direction: column;
+		                width: 70%;
+            			}
+		        #cadastrar{
+		                height: 50px;
+		                width:50%;
+		                color: black;
+		                font-weight: bold;
+		            	}
+		        form [type="submit"]:hover{
+				background-color: #03fc45;
 				color: white;
-		    cursor: pointer;
-		  }
-      #cadastro{
-        text-align: center;
-        color: #03fc45;
-      }
-      input{
-        height: 30px;
-        padding: 10px;
-        outline: none;
-        border: 0;
-        font-size: 15px;
-        margin-top: 30px;
-      }
+		                cursor: pointer;
+		            	}
+            		#cadastro{
+                		text-align: center;
+                		color: #03fc45;
+            			}
+            		input{
+                		height: 30px;
+                		padding: 10px;
+                		outline: none;
+                		border: 0;
+                		font-size: 15px;
+                		margin-top: 30px;
+            			}
 			span{
 				color: #03fc45;
-      }
-      p{
-        line-height: 20px;
-        max-width: 500px;
-        font-family: Tahoma;
-      }
+            			}
+            		p{
+                		line-height: 20px;
+                		max-width: 500px;
+                		font-family: Tahoma;
+            			}
 			header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-      }
-      #title{
-        flex-direction: column;
-        line-height: 10px;
-      }
-      li{
-        display:inline-block;
-        margin: 20px;
-      }
-      a{
-        color: white;
-      }
-      a:hover{
-        border: 2px solid #03fc45;
-        padding: 10px;
-        border-radius: 15px;
-        transition: 0.3s all;
-      }
+                		display: flex;
+                		flex-direction: row;
+                		justify-content: space-between;
+                		align-items: center;
+            			}
+            		#title{
+                		flex-direction: column;
+                		line-height: 10px;
+            			}
+            		li{
+                		display:inline-block;
+                		margin: 20px;
+            			}
+            		a{
+                		color: white;
+            			}
+            		a:hover{
+                		border: 2px solid #03fc45;
+                		padding: 10px;
+                		border-radius: 15px;
+                		transition: 0.3s all;
+            			}
 			main{
 				display: flex;
-			  flex-direction: row;
-			  margin-top: 50px;
-			}
+			        flex-direction: row;
+			        margin-top: 50px;
+			        }
 			aside{
-		    margin-top: 30px;
-		  }
+		                margin-top: 30px;
+		            	}
 			@media screen and (max-width: 1200px){
-			  header{
-	        flex-direction: column;
-	      }
+				header{
+	                    		flex-direction: column;
+	                		}
 				img{
-		      width: 400px;
-		      height: 400px;
+		                	width: 400px;
+		                	height: 400px;
 					margin-left: 20px;
-		    }
-		    main{
-		      flex-direction: column;
-		    }
-		    input{
-		      align-self: center;
-		    }
-		    p{
-		      text-align: center;
-		    }
-		  }
+		                	}
+		                main{
+		                	flex-direction: column;
+		                	}
+		                input{
+		                	align-self: center;
+		                	}
+		                p{
+		                	text-align: center;
+		                	}
+		            }
 			@media screen and (max-width: 760px){
-	      header{
-	        flex-direction: column;
-	      }
-		    main{
-		      flex-direction: column;
-		    }
-		    h2{
-		      font-size: 35px; 
-		      text-align: center;
-		    }
-		    input{
-		      align-self: center;
-		    }
-		    img{
-		      width: 400px;
-		      height: 400px;
-		      margin-top: 60px;
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                main{
+		                	flex-direction: column;
+		                	}
+		                h2{
+		                	font-size: 35px; 
+		                	text-align: center;
+		                	}
+		                input{
+		                	align-self: center;
+		                	}
+		                img{
+		                	width: 400px;
+		                	height: 400px;
+		                	margin-top: 60px;
 					margin-left: 20px;
-		    }
-		    ul{
-		      text-align: center;
-		      text-size: 10px;
-		    }
-		    p{
-		      text-align: center;
-		    }
-		  }
+		                	}
+		                ul{
+		                	text-align: center;
+		                	text-size: 10px;
+		                	}
+		                p{
+		                	text-align: center;
+		                	}
+		        	}
 			@media screen and (max-width: 200px){
-	      header{
-	        flex-direction: column;
-	      }
-		    main{
-		      flex-direction: column;
-		    }
-		    h2{
-		      font-size: 35px; 
-		      text-align: center;
-		    }
-		    input{
-		      align-self: center;
-		    }
-		    img{
-		      width: 300px;
-		      height: 300px;
-		      margin-top: 60px;
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                main{
+		                	flex-direction: column;
+		                	}
+		                h2{
+		                	font-size: 35px; 
+		                	text-align: center;
+		                	}
+		                input{
+		                	align-self: center;
+		                	}
+		                img{
+		                	width: 300px;
+		                	height: 300px;
+		                	margin-top: 60px;
 					margin-left: 20px;
-		    }
-		    ul{
-		      text-align: center;
-		      text-size: 10px;
-		    }
-		    p{
-		      text-align: center;
-		    }
-		  }
+		                	}
+		                ul{
+		                	text-align: center;
+		                	text-size: 10px;
+		                	}
+		                p{
+		                	text-align: center;
+		                	}
+		        	}
 			@media screen and (max-width: 100px){
-	      header{
-	        flex-direction: column;
-	      }
-		    main{
-		      flex-direction: column;
-		    }
-		    h2{
-		      font-size: 35px; 
-		      text-align: center;
-		    }
-		    input{
-		      align-self: center;
-		    }
-		    img{
-		      width: 200px;
-		      height: 200px;
-		      margin-top: 60px;
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                main{
+		                	flex-direction: column;
+		                	}
+		                h2{
+		                	font-size: 35px; 
+		                	text-align: center;
+		                	}
+		                input{
+		                	align-self: center;
+		                	}
+		                img{
+		                	width: 200px;
+		                	height: 200px;
+		                	margin-top: 60px;
 					margin-left: 20px;
-		    }
-		    ul{
-		      text-align: center;
-		      text-size: 10px;
-		    }
-		    p{
-		      text-align: center;
-		    }
-		  }
-	  </style>
-  </head>
-  <body>
-  </body>
+		                	}
+		                ul{
+		                	text-align: center;
+		                	text-size: 10px;
+		                	}
+		                p{
+		                	text-align: center;
+		                	}
+				}
+		</style>
+		</style>
+	</head>
+	<body>
+  	</body>
 </html>
