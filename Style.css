@@ -69,12 +69,10 @@
                 		margin-top: 30px;
 			}
 			input [type="text"]: hover{
-				background-color:blue;
 				border-radius: 25px;
 				transition: 0.3s all;
 			}
-			input [type="password"]: hover{
-				background-color:blue;
+			input [type="password"]: hover{;
 				border-radius: 25px;
 				transition: 0.3s all;
 			}
