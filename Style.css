@@ -93,10 +93,12 @@
             			}
 			#AAA{
 				color: white;
-			}
-			#AAA:hover{
 				width: 38px;
 				height: 35px;
+			}
+			#AAA:hover{
+				width: 41px;
+				height: 37px;
 				transition: 0.3s all;
 			}
 			main{
