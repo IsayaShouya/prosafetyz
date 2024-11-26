@@ -83,8 +83,13 @@
 				border-radius: 25px;
 				transition: 0.3s all;
 			}
-			EsqSenha{
+			#EsqSenha{
 				color: blue;
+				font-size: 8px;
+			}
+			#EsqSenha: hover{
+				color: blue;
+				font-size: 8px;
 			}
 			span{
 				color: #03fc45;
