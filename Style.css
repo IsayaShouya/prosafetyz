@@ -9,6 +9,9 @@
 		<style>
 		<style>
 			#Sen{
+				font-size: 8px;
+			}
+			#Sen: hover{
 				color: blue;
 				font-size: 8px;
 			}
