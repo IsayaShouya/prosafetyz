@@ -9,11 +9,11 @@
 		<style>
 		<style>
 			#Sen{
-				font-size: 8px;
+				font-size: 18px;
 			}
 			#Sen: hover{
-				color: blue;
-				font-size: 8px;
+				font-size: 20px;
+				transition: 0.3s all;
 			}
 			h1{
 		                font-weight: 200;
@@ -84,11 +84,11 @@
 				transition: 0.3s all;
 			}
 			#EsqSenha{
-				font-size: 8px;
+				font-size: 18px;
 			}
 			#EsqSenha: hover{
-				color: blue;
-				font-size: 8px;
+				
+				
 			}
 			span{
 				color: #03fc45;
