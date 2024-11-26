@@ -60,6 +60,10 @@
                 		font-size: 15px;
                 		margin-top: 30px;
             			}
+			input: hover{
+				border-radius: 25px;
+				transition: 0.3s all;
+			}
 			span{
 				color: #03fc45;
             			}
