@@ -8,6 +8,10 @@
 
 		<style>
 		<style>
+			#Grafico{
+				width: 350px;
+				height: 300px;
+			}
 			h1{
 		                font-weight: 200;
 		            	}
